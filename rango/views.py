@@ -13,7 +13,7 @@ def index(request):
 
 def about(request):
     # Construct a dictionary to pass to the template engine as its context.
-    context_dict = {'author': "Michal Broos."}
+    context_dict = {'author': "Michal Broos"}
 
     # Return a rendered response to send to the client.
     return render(request, 'rango/about.html', context=context_dict)
